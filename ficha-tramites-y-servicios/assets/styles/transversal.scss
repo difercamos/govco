@@ -1,0 +1,61 @@
+.govco-table-v1{
+    thead{
+        background-color: #f2f2f2;
+        th{
+            width: 185px;
+            border-bottom: none !important;
+            border-top: none !important;
+        }
+    }
+    tbody{
+        tr{                
+            border-bottom: 1px solid #E6EFFD;
+            td{
+                width: 200px;
+                border-top: none !important;
+                font-size: 16px;
+                font-weight: normal;
+                font-family: "Work Sans";
+                color: #4B4B4B;
+                line-height: 22px;
+                a{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+.content-tramite-linea{
+    
+    @media screen and (max-width: 768px) {
+        margin: 0;
+    }
+    .btn{
+        height: 50px;
+        align-items: center;
+        display: flex;
+        font-weight: 600;
+        justify-content: center;
+      
+    }
+    .btn-puntos-atencion{
+        
+        width: 100%;
+        color: #3366CC !important;
+        border: 1px solid #3366CC;
+        font-size: 16px;
+        &:hover{
+            font-size: 16px !important;
+            color: white !important;
+            background-color: #004884;
+        }
+        @media (max-width: 768px) {
+            font-size: 15px;
+            height: 48px;
+        }
+    }
+}
+
+
+    
+

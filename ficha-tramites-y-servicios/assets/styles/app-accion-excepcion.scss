@@ -1,0 +1,106 @@
+app-accion-excepcion{
+
+    .encabezado-subacordeon{
+        background-color: #004884;
+        
+        .title-subacordeon{
+            height: 71px;
+            display: flex;
+
+            .material-icons{
+                color: white;
+                margin: auto;
+                margin-right: 0px;
+            }
+
+            .title-exception{
+                margin: auto  auto auto 10px !important;
+                color: white;
+                font-size: 16px;
+                font-family: Montserrat;
+                font-weight: bold;
+            }
+            
+        }
+    }
+    
+    .excepciones{
+        width: 100%;
+
+        .accordion{
+            .card{
+                border: none !important;
+                .card-header{
+                    // height: 69px;
+                    min-height: 70px;
+                    border-radius: none !important;
+                    border: none !important;
+                    
+                    &:first-child{
+                        border: none !important;
+                    }
+    
+                    .btn-link{
+                        background-color: #E6EFFD;
+                        font-size: 16px;
+                        font-family: Montserrat;
+
+                        &.collapsed{
+                            // background-color: red;
+                            display: block;
+                        }
+
+                        .headerPanel{
+                            
+                            display: flex;
+                            p{
+                                text-align: left;
+                                color: #0061EA;
+                                white-space: normal;
+                                margin: auto auto auto 56px;
+                                width: 90%;
+                                display: block;
+                            }
+    
+                            .icon{
+                                margin: auto;
+                                width: 19px;
+                                height: 14px; 
+                                margin-right: 18px !important;
+                                background-image: url('assets/images/spr-icons-govco.png');
+                                background-position: 11% 14%;
+                                transform: rotate(180deg);
+                            }
+                        }
+                        
+                    }
+
+                    .collapsed{
+                        
+                        .icon{
+                            margin: auto;
+                            width: 19px;
+                            height: 14px;                                    
+                            margin-right: 18px !important;
+                            background-image: url('assets/images/spr-icons-govco.png');
+                            background-position: 11% 14%;
+                            transform: rotate(0deg);
+                        } 
+
+                        
+                        
+                    }
+                } 
+
+                .card-body{
+                    .contenedor-accion-excepcion{
+                        margin: 35px 15px 0px 23px;
+                    }
+                }
+        
+            } 
+        }
+        
+        
+    }
+}
